@@ -1,5 +1,6 @@
 #File to code
-#Remote name localCode
+#Remote name to push local branch: localCode
+#git push -u <remote_name> <local_branch_name> 
 
 #########################################################
 #Set up the repository:
