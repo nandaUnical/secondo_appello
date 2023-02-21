@@ -1,7 +1,7 @@
 import pytest
 import sys
-sys.path.insert(1,'C:/Users/hp/Documents/!Master/Agile/!!Second Apello/secondo_appello/pasword')
-import code_pasword as cp
+#sys.path.insert(1,'C:/Users/hp/Documents/!Master/Agile/!!Second Apello/secondo_appello/pasword')
+from  pasword import code_pasword as cp
 
 
 @pytest.fixture
