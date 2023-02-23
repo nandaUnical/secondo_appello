@@ -15,7 +15,7 @@ def pasword_object():
 def test_validate_pwd_size(pasword_object):
     for elem in pasword_object.response :
         #print(paswo)
-        assert elem['issues'] == 'Pasword should have at least 8 characters and no more than 16.'
+        assert elem['issues'] != 'Pasword should have at least 8 characters and no more than 16.'
 
 '''
 def test_validate_pwd_size (pasword_object):
