@@ -10,9 +10,9 @@ def pasword_object():
     object = cp.pasword(texto)
     return object
 
-#@pytest.mark.parametrize('pwd',[('1234','qwert','1q2w3e')])
+@pytest.mark.parametrize('pwd',[('1234','qwert','1q2w3e')])
 
-def test_validate_pwd_size(pasword_object):
+def test_validate_pwd_size(pwd):
     for elem in pasword_object.response :
         #print(paswo)
         assert elem['issues'] != 'Pasword should have at least 8 characters and no more than 16.'
